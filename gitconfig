@@ -1,0 +1,7 @@
+[user]
+	name = Alan Daud
+	email = olancheg@gmail.com
+[core]
+    editor = vim
+[credential]
+	helper = osxkeychain
