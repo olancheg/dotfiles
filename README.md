@@ -4,12 +4,15 @@ dotfiles
 Installation
 ------------
 
-Download git-completion:
+Clone repository
 ```sh
-curl "https://raw.github.com/git/git/master/contrib/completion/git-completion.bash" -o ~/.bin/git-completion.bash
+git clone https://github.com/olancheg/dotfiles.git ~/dotfiles
 ```
 
-Set up SSL certificate for git:
+Link files
 ```sh
-git config --system http.sslcainfo /usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+ln -sv ~/dotfiles/.gemrc ~
+ln -sv ~/dotfiles/.gitconfig ~
+ln -sv ~/dotfiles/.vimrc ~
+ln -sv ~/dotfiles/.tmux.conf ~
 ```
