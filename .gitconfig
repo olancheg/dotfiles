@@ -1,0 +1,18 @@
+[user]
+	name = Alan Daud
+	email = olancheg@gmail.com
+[core]
+	editor = vim
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[alias]
+	co = checkout
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[github]
+	user = olancheg
