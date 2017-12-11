@@ -1,17 +1,29 @@
 " .vimrc
-set encoding=utf-8
+set nocompatible
+filetype off
 
-" load up pathogen and all bundles
-call pathogen#infect()
-call pathogen#helptags()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'rking/ag.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'chriskempson/base16-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()                 " required
 
 syntax on                         " show syntax highlighting
 filetype plugin indent on
+set encoding=utf-8
 set autoindent                    " set auto indent
 set ts=2                          " set indent to 2 spaces
 set shiftwidth=2
 set expandtab                     " use spaces, not tab characters
-set nocompatible                  " don't need to be compatible with old vim
 set relativenumber                " show relative line numbers
 set showmatch                     " show bracket matches
 set ignorecase                    " ignore case in search
@@ -146,11 +158,8 @@ function! RenameFile()
 endfunction
 map <leader>n :call RenameFile()<cr>
 
-" ag bundle
-set runtimepath^=~/.vim/bundle/ag
-
 " nerdtree
-map <leader>§ :NERDTreeToggle<CR>
+map <leader>` :NERDTreeToggle<CR>
 
 " toggle set list
 nmap <leader>\ :set list!<CR>
