@@ -13,6 +13,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'chriskempson/base16-vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()                 " required
@@ -92,6 +94,9 @@ let g:ctrlp_match_window_reversed = 0
 " use silver searcher for ctrlp
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
+" vim-jsx settings
+let g:jsx_ext_required = 0
+
 " unmap F1 help
 nmap <F1> <nop>
 imap <F1> <nop>
@@ -167,3 +172,6 @@ set listchars=tab:▸\ ,eol:¬
 
 " paste settings
 set pastetoggle=<F2>
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
