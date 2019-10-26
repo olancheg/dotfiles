@@ -15,4 +15,6 @@ ln -sv ~/dotfiles/.gemrc ~
 ln -sv ~/dotfiles/.gitconfig ~
 ln -sv ~/dotfiles/.vimrc ~
 ln -sv ~/dotfiles/.tmux.conf ~
+ln -sv ~/dotfiles/.zshrc ~
+ln -sv ~/dotfiles/.zprofile ~
 ```
