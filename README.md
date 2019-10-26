@@ -3,6 +3,7 @@ dotfiles
 
 Installation
 ------------
+Install fonts from `fonts` folder
 
 Clone repository
 ```sh
