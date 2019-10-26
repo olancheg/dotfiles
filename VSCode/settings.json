@@ -1,0 +1,29 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+  "terminal.integrated.rendererType": "canvas",
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "html.format.endWithNewline": true,
+  "[javascriptreact]": {},
+  "window.zoomLevel": 1,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "/node_modules": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "ruby.useBundler": true,
+  "solargraph.useBundler": true,
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 120,
+}

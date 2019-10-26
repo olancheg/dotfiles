@@ -22,6 +22,8 @@ git clone https://github.com/olancheg/dotfiles.git ~/dotfiles
 
 Link files
 ```sh
+mkdir -p ~/Library/Application\ Support/Code/User/
+ln -sv ~/dotfiles/VSCode/settings.json ~/Library/Application\ Support/Code/User/
 ln -sv ~/dotfiles/.gemrc ~
 ln -sv ~/dotfiles/.gitconfig ~
 ln -sv ~/dotfiles/.vimrc ~
