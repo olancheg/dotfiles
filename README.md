@@ -13,12 +13,19 @@ Install Powerlevel10k
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-Install fonts from `fonts` folder
+Install Vundle:
+```sh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+Run `vim`, `:PluginInstall`
 
 Clone repository
 ```sh
 git clone https://github.com/olancheg/dotfiles.git ~/dotfiles
 ```
+
+Install fonts from `fonts` folder
 
 Link files
 ```sh
