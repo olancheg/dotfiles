@@ -26,4 +26,5 @@
   "editor.formatOnSave": true,
   "prettier.trailingComma": "all",
   "prettier.printWidth": 120,
+  "sync.gist": "00242b6f3c48bea88a0ce8aa30b1ceef",
 }

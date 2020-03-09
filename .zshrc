@@ -117,3 +117,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
+
+# Dotenv prompt
+ZSH_DOTENV_PROMPT=false
