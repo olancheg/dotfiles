@@ -115,4 +115,7 @@ export PATH="$PATH:$HOME/Utils/flutter/bin:$HOME/.rvm/bin"
 # Homebrew autocompletions
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
 fi
