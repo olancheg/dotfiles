@@ -369,6 +369,11 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
+	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
+		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
+	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -402,11 +407,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>458 408 620 392 0 0 1536 937 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>806 374 730 563 0 0 2560 1417 </string>
+	<string>685 182 730 563 0 0 1536 937 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>494 374 730 563 0 0 1536 937 </string>
+	<string>157 100 730 563 0 0 1536 937 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>249 92 730 563 0 0 2560 1417 </string>
+	<string>68 177 730 563 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -982,6 +987,15 @@
 				<key>Red Component</key>
 				<real>0.18823529779911041</real>
 			</dict>
+			<key>Semantic History</key>
+			<dict>
+				<key>action</key>
+				<string>raw command</string>
+				<key>editor</key>
+				<string>com.github.atom</string>
+				<key>text</key>
+				<string>/usr/local/bin/code -r -g \1:\2</string>
+			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
 			<key>Shortcut</key>
@@ -1140,6 +1154,8 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.8beta3</string>
+		<string>3.3.10beta2</string>
+		<string>3.3.10beta1</string>
 		<string>3.3.8beta4</string>
 		<string>3.3.7</string>
 		<string>3.3.9beta1</string>
@@ -1147,16 +1163,16 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1792, 1120}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{574, 875}</string>
+		<string>{797, 917}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>F1076E97-4C22-4354-A745-CADD5B89C02E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>603578869.86540496</real>
+	<real>606945992.28799903</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>13</integer>
+	<integer>47</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>599507760.98454702</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1482,6 +1498,14 @@
 				<true/>
 				<key>name</key>
 				<string>style</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.jobPid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1879,11 +1903,30 @@
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>599183675.921386</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
-		<string>000</string>
+		<string>0004</string>
 		<string>0000</string>
+		<string>0010</string>
+		<string>0008</string>
+		<string>0017</string>
+		<string>0007</string>
+		<string>0003</string>
+		<string>0013</string>
+		<string>0016</string>
+		<string>0006</string>
+		<string>0002</string>
+		<string>000</string>
+		<string>0012</string>
+		<string>0009</string>
+		<string>0005</string>
 		<string>0001</string>
+		<string>0011</string>
+		<string>0015</string>
+		<string>0014</string>
+		<string>0018</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1929,15 +1972,19 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-16T20:01:07Z</date>
+	<date>2020-03-30T19:46:58Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>4145314230</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>5</integer>
+	<key>UseBorder</key>
+	<true/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WordCharacters</key>
@@ -1945,7 +1992,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.9beta1</string>
+	<string>3.3.10beta2</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
