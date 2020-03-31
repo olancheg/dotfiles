@@ -110,7 +110,7 @@ export LANG=en_US.UTF-8
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/Utils/flutter/bin:$HOME/.rvm/bin"
 
 # Homebrew autocompletions
 if type brew &>/dev/null; then
