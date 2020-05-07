@@ -13,7 +13,7 @@
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
 	<key>CheckTestRelease</key>
-	<true/>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Afterglow</key>
@@ -407,11 +407,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>685 182 730 563 0 0 1536 937 </string>
+	<string>1664 153 730 563 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>157 100 730 563 0 0 1536 937 </string>
+	<string>467 226 928 683 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 0 1536 937 0 0 1536 937 </string>
+	<string>0 374 730 563 0 0 1536 937 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1153,13 +1153,13 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.8beta3</string>
-		<string>3.3.10beta2</string>
-		<string>3.3.10beta1</string>
-		<string>3.3.8beta4</string>
-		<string>3.3.7</string>
-		<string>3.3.9beta1</string>
 		<string>3.3.10beta3</string>
+		<string>3.3.9beta1</string>
+		<string>3.3.10beta2</string>
+		<string>3.3.8beta4</string>
+		<string>3.3.8beta3</string>
+		<string>3.3.7</string>
+		<string>3.3.10beta1</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -1173,7 +1173,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>606945992.28799903</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>49</integer>
+	<integer>87</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>599507760.98454702</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -1969,11 +1969,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing_new.xml?shard=30</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=30</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-31T19:46:59Z</date>
+	<date>2020-05-03T00:46:17Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
