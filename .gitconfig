@@ -16,3 +16,5 @@
 	required = true
 [github]
 	user = olancheg
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
