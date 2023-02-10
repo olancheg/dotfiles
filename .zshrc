@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Go Arch
+export GOARCH=amd64
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
 
@@ -110,7 +113,7 @@ export LANG=en_US.UTF-8
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/Utils/flutter/bin:$HOME/.rvm/bin"
+export PATH="$HOME/.rvm/bin:/usr/local/sbin:$PATH:$HOME/Utils/flutter/bin"
 
 # Homebrew autocompletions
 if type brew &>/dev/null; then
