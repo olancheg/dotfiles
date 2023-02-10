@@ -75,7 +75,7 @@ POWERLEVEL9K_MODE="awesome-patched"
 plugins=(
   git
   bundler
-  osx
+  macos
   rake
   ruby
 )
